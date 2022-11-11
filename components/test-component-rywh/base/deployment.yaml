@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-rywh
     spec:
       containers:
-      - image: quay.io/psturc/test-images:ce64fc3224544b93a4777b88c534610e
+      - image: quay.io/psturc/test-images@sha256:ae25f5f50749203cc8e597044f7166dfeaa89ad31940b2e7b7d538819f3743e9
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
